@@ -1,7 +1,9 @@
 import json
-
+# -*- coding:utf-8 -*-
 import requests
-
+class TestJiuzhenList:
+    def setup(self):
+        pass
 
 def test_null_data():
     url = "http://192.168.10.123:1200/appointment/insured/list"
